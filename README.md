@@ -1,5 +1,7 @@
 # AngularJS datepicker directives
 
+Forked from [g00fy-/angular-datepicker](https://github.com/g00fy-/angular-datepicker) as we need an up-to-date version of this library available to install via NPM.
+
 #### Requirements
 
 -  Angular v1.2+
