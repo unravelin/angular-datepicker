@@ -784,10 +784,16 @@ var PRISTINE_CLASS = 'ng-pristine',
         }
 
         function parser(viewValue) {
-          if (viewValue.length === format.length) {
+          var AmPm = format.substring(format.length - 1, format.length);
+          var formatLength = format.length;
+          // 12h format string is shorter by one character than valid 12h date
+          if ('A' === AmPm.toUpperCase()) {
+            formatLength += 1;
+          }
+          if (viewValue.length === formatLength) {
             return viewValue;
           }
-          return (viewValue.length === 0) ? viewValue : undefined;
+          return undefined;
         }
 
         function setMin(date) {
