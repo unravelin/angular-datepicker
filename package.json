@@ -2,9 +2,19 @@
   "name": "@ravelin/angular-datepicker",
   "version": "2.1.3",
   "main": "dist/angular-datepicker.js",
+  "description": "Forked from g00fy-/angular-datepicker as we need this library up-to-date",
   "repository": {
     "url": "git+https://github.com/unravelin/angular-datepicker.git"
   },
+  "bugs": {
+    "url": "https://github.com/unravelin/angular-datepicker/issues"
+  },
+  "homepage": "https://github.com/unravelin/angular-datepicker#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Piotrek Majewski",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "bower": "1.5.3",
